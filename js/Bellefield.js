@@ -1,29 +1,20 @@
-function Task(data) {
-    this.title = ko.observable(data.title);
-    this.isDone = ko.observable(data.isDone);
+// Define the namespace
+window.myApp = {};
+
+// This is a simple *viewmodel* - JavaScript that defines the data and behavior of your UI
+function AppViewModel() {
+    this.firstName = ko.observable("Bert");
+    this.lastName = ko.observable("Bertington");
+
+    this.fullName = ko.computed(function() {
+        return this.firstName() + " " + this.lastName();    
+    }, this);
+
+    this.capitalizeLastName = function() {
+        var currentVal = this.lastName();        // Read the current value
+        this.lastName(currentVal.toUpperCase()); // Write back a modified value
+    };    
 }
 
-function TaskListViewModel() {
-    // Data
-    var self = this;
-    self.tasks = ko.observableArray([]);
-    self.newTaskText = ko.observable();
-    self.incompleteTasks = ko.computed(function() {
-        return ko.utils.arrayFilter(self.tasks(), function(task) { return !task.isDone() });
-    });
-
-    // Operations
-    self.addTask = function() {
-        self.tasks.push(new Task({ title: this.newTaskText() }));
-        self.newTaskText("");
-    };
-    self.removeTask = function(task) { self.tasks.remove(task) };
-    
-    // Load initial state from server, convert it to Task instances, then populate self.tasks
-    $.getJSON("/tasks", function(allData) {
-        var mappedTasks = $.map(allData, function(item) { return new Task(item) });
-        self.tasks(mappedTasks);
-    });  
-}
-
-ko.applyBindings(new TaskListViewModel());
+// Activates knockout.js
+ko.applyBindings(new AppViewModel());

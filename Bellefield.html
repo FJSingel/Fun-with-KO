@@ -2,26 +2,20 @@
 <html>
 <body>
 
-	<script type='text/javascript' src='knockout-3.2.0.js'></script>
-	<script src='Bellefield.js'></script>
+	<!-- This is a *view* - HTML markup that defines the appearance of your UI -->
 
-	<h3>Tasks</h3>
+	<p>First name: <strong data-bind="text: firstName"></strong></p>
+	<p>Last name: <strong data-bind="text: lastName"></strong></p>
 
-	<form data-bind="submit: addTask">
-	    Add task: <input data-bind="value: newTaskText" placeholder="What needs to be done?" />
-	    <button type="submit">Add</button>
-	</form>
+	<p>First name: <input data-bind="value: firstName" /></p>
+	<p>Last name: <input data-bind="value: lastName" /></p>
 
-	<ul data-bind="foreach: tasks, visible: tasks().length > 0">
-	    <li>
-	        <input type="checkbox" data-bind="checked: isDone" />
-	        <input data-bind="value: title, disable: isDone" />
-	        <a href="#" data-bind="click: $parent.removeTask">Delete</a>
-	    </li>
-	</ul>
+	<p>Full name: <strong data-bind="text: fullName"></strong></p>
 
-	You have <b data-bind="text: incompleteTasks().length">&nbsp;</b> incomplete task(s)
-	<span data-bind="visible: incompleteTasks().length == 0"> - it's beer time!</span>
+	<button data-bind="click: capitalizeLastName">Go caps</button>
+
+	<script type="text/javascript" src="./js/knockout-3.2.0.js"></script>
+	<script type="text/javascript" src="./js/Bellefield.js"></script>
 
 </body>
 </html>
