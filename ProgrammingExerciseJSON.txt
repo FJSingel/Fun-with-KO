@@ -1,0 +1,565 @@
+[
+  {
+    "Response": {
+      "TheMatters": [
+        {
+          "AreaOfLaw": "Litigation (General)",
+          "ClientId": "1001",
+          "ClientLabel": "1001",
+          "ClientName": "Martinez, David",
+          "MatterDescription": "Martinez v. Bernailillo County  Mr. Martinez suing Bernillilo County for failure to provide adequate and reasonable assistance to meet his physical challenge while attempting to attend a public board meeting.",
+          "MatterId": "1001-002",
+          "MatterLabel": "1001-001",
+          "MatterName": "Martinez v. Bernailillo County",
+          "MatterType": "Hourly Fee"
+        },
+        {
+          "AreaOfLaw": "Bankruptcy",
+          "ClientId": "1000",
+          "ClientLabel": "1000",
+          "ClientName": "Maguire, Robert",
+          "MatterDescription": "Maguire - Chapter 7",
+          "MatterId": "1001-001",
+          "MatterLabel": "1001-001",
+          "MatterName": "Maguire - Chapter 7",
+          "MatterType": "Flat Fee"
+        }
+      ],
+      "TheTimeEntries": [
+        {
+          "MatterId": "1001-001",
+          "Metadata": {
+            "CreatedOn": "2014-12-26T16:10:23.070",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-26T16:10:23.070",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 10904000,
+            "TimerStartingTime": null,
+            "VersionId": "63555227887"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-3530",
+          "WorkDate": "2014-12-26",
+          "WorkDescription": "This is testing abbreviations",
+          "WorkHours": 0.9
+        },
+        {
+          "MatterId": "1001-002",
+          "Metadata": {
+            "CreatedOn": "2014-12-28T20:44:38.797",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-28T20:44:38.797",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 0,
+            "TimerStartingTime": null,
+            "VersionId": "63555396279"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-3532",
+          "WorkDate": "2014-12-28",
+          "WorkDescription": "Testing 2",
+          "WorkHours": 0.1
+        },
+        {
+          "MatterId": "1001-001",
+          "Metadata": {
+            "CreatedOn": "2014-12-26T16:10:23.070",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-26T16:10:23.070",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 10904000,
+            "TimerStartingTime": null,
+            "VersionId": "63555227888"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-3531",
+          "WorkDate": "2014-12-26",
+          "WorkDescription": "This is testing abbreviations",
+          "WorkHours": 0.2
+        },
+        {
+          "MatterId": "1001-002",
+          "Metadata": {
+            "CreatedOn": "2014-12-28T20:44:38.797",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-28T20:44:38.797",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 0,
+            "TimerStartingTime": null,
+            "VersionId": "63555396289"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-3533",
+          "WorkDate": "2014-12-28",
+          "WorkDescription": "Testing 2",
+          "WorkHours": 0.3
+        },
+        {
+          "MatterId": "1001-001",
+          "Metadata": {
+            "CreatedOn": "2014-12-26T16:10:23.070",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-26T16:10:23.070",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 10904000,
+            "TimerStartingTime": null,
+            "VersionId": "63555228887"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-3534",
+          "WorkDate": "2014-12-26",
+          "WorkDescription": "This is testing abbreviations",
+          "WorkHours": 0.4
+        },
+        {
+          "MatterId": "1001-002",
+          "Metadata": {
+            "CreatedOn": "2014-12-28T20:44:38.797",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-28T20:44:38.797",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 0,
+            "TimerStartingTime": null,
+            "VersionId": "63555396479"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-3535",
+          "WorkDate": "2014-12-28",
+          "WorkDescription": "Testing 2",
+          "WorkHours": 0.5
+        },
+        {
+          "MatterId": "1001-001",
+          "Metadata": {
+            "CreatedOn": "2014-12-26T16:10:23.070",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-26T16:10:23.070",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 10904000,
+            "TimerStartingTime": null,
+            "VersionId": "63555220887"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-3536",
+          "WorkDate": "2014-12-26",
+          "WorkDescription": "This is testing abbreviations",
+          "WorkHours": 0.6
+        },
+        {
+          "MatterId": "1001-002",
+          "Metadata": {
+            "CreatedOn": "2014-12-28T20:44:38.797",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-28T20:44:38.797",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 0,
+            "TimerStartingTime": null,
+            "VersionId": "63555392279"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-3537",
+          "WorkDate": "2014-12-28",
+          "WorkDescription": "This is a fun test",
+          "WorkHours": 0.7
+        },
+        {
+          "MatterId": "1001-001",
+          "Metadata": {
+            "CreatedOn": "2014-12-26T16:10:23.070",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-26T16:10:23.070",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 10904000,
+            "TimerStartingTime": null,
+            "VersionId": "73555227887"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-4530",
+          "WorkDate": "2014-12-26",
+          "WorkDescription": "This is testing abbreviations",
+          "WorkHours": 1.9
+        },
+        {
+          "MatterId": "1001-002",
+          "Metadata": {
+            "CreatedOn": "2014-12-28T20:44:38.797",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-28T20:44:38.797",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 0,
+            "TimerStartingTime": null,
+            "VersionId": "73555396279"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-4532",
+          "WorkDate": "2014-12-28",
+          "WorkDescription": "Testing 2",
+          "WorkHours": 1.1
+        },
+        {
+          "MatterId": "1001-001",
+          "Metadata": {
+            "CreatedOn": "2014-12-26T16:10:23.070",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-26T16:10:23.070",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 10904000,
+            "TimerStartingTime": null,
+            "VersionId": "73555227888"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-4531",
+          "WorkDate": "2014-12-26",
+          "WorkDescription": "This is testing abbreviations",
+          "WorkHours": 1.2
+        },
+        {
+          "MatterId": "1001-002",
+          "Metadata": {
+            "CreatedOn": "2014-12-28T20:44:38.797",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-28T20:44:38.797",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 0,
+            "TimerStartingTime": null,
+            "VersionId": "73555396289"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-4533",
+          "WorkDate": "2014-12-28",
+          "WorkDescription": "Testing 2",
+          "WorkHours": 1.3
+        },
+        {
+          "MatterId": "1001-001",
+          "Metadata": {
+            "CreatedOn": "2014-12-26T16:10:23.070",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-26T16:10:23.070",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 10904000,
+            "TimerStartingTime": null,
+            "VersionId": "73555228887"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-4534",
+          "WorkDate": "2014-12-26",
+          "WorkDescription": "This is testing abbreviations",
+          "WorkHours": 1.4
+        },
+        {
+          "MatterId": "1001-002",
+          "Metadata": {
+            "CreatedOn": "2014-12-28T20:44:38.797",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-28T20:44:38.797",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 0,
+            "TimerStartingTime": null,
+            "VersionId": "73555396479"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-4535",
+          "WorkDate": "2014-12-28",
+          "WorkDescription": "Testing 2",
+          "WorkHours": 1.5
+        },
+        {
+          "MatterId": "1001-001",
+          "Metadata": {
+            "CreatedOn": "2014-12-26T16:10:23.070",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-26T16:10:23.070",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 10904000,
+            "TimerStartingTime": null,
+            "VersionId": "73555220887"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-4536",
+          "WorkDate": "2014-12-26",
+          "WorkDescription": "This is testing abbreviations",
+          "WorkHours": 1.6
+        },
+        {
+          "MatterId": "1001-002",
+          "Metadata": {
+            "CreatedOn": "2014-12-28T20:44:38.797",
+            "ReadOnlyFields": null,
+            "SaveErrorInformation": {
+              "ErrorCode": null,
+              "ErrorDescription": null,
+              "ErrorLabel": null
+            },
+            "Status": "Draft",
+            "StatusDate": "2014-12-28T20:44:38.797",
+            "SubscriptionId": 30,
+            "TimerAccumulatedMilliseconds": 0,
+            "TimerStartingTime": null,
+            "VersionId": "73555392279"
+          },
+          "OwnerUserId": 1250,
+          "SelectionId0": "",
+          "SelectionId1": "",
+          "SelectionId2": "",
+          "SelectionId3": "",
+          "SelectionId4": "",
+          "SelectionId5": "",
+          "SelectionId6": "",
+          "SelectionId7": "",
+          "SelectionId8": "",
+          "SelectionId9": "",
+          "TimeEntryId": "I-30-1250-4537",
+          "WorkDate": "2014-12-28",
+          "WorkDescription": "This is a fun test",
+          "WorkHours": 1.7
+        }
+      ]
+    },
+    "Status": {
+      "ErrorCode": "OK",
+      "ErrorDescription": "",
+      "ErrorLabel": ""
+    }
+  }
+]
